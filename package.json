@@ -1,0 +1,20 @@
+{
+  "name": "coffee-management-system",
+  "version": "1.0.0",
+  "description": "Système de gestion de café",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "typescript": "^5.0.0",
+    "idb": "^7.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "jest": "^29.0.0",
+    "ts-jest": "^29.0.0"
+  }
+}
